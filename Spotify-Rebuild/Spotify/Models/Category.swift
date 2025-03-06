@@ -8,5 +8,5 @@
 import Foundation
 
 enum Category: String, CaseIterable {
-    case all, music, podcasts, audiobooks
+    case all, music, podcasts, audiobooks, live
 }

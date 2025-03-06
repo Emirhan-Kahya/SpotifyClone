@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE840A8D2D7714590033D4E3 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CE840A8C2D7714590033D4E3 /* SDWebImageSwiftUI */; };
+		CE840AA62D7969D80033D4E3 /* SwiftfulUI in Frameworks */ = {isa = PBXBuildFile; productRef = CE840AA52D7969D80033D4E3 /* SwiftfulUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE840AA62D7969D80033D4E3 /* SwiftfulUI in Frameworks */,
 				CE840A8D2D7714590033D4E3 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,6 +120,7 @@
 			name = "Spotify-Rebuild";
 			packageProductDependencies = (
 				CE840A8C2D7714590033D4E3 /* SDWebImageSwiftUI */,
+				CE840AA52D7969D80033D4E3 /* SwiftfulUI */,
 			);
 			productName = "Spotify-Rebuild";
 			productReference = CE1A2FB12D771161005B64E5 /* Spotify-Rebuild.app */;
@@ -203,6 +206,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				CE1A2FE22D7713BB005B64E5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				CE840AA42D7969B70033D4E3 /* XCRemoteSwiftPackageReference "SwiftfulUI" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CE1A2FB22D771161005B64E5 /* Products */;
@@ -577,6 +581,14 @@
 				minimumVersion = 3.1.3;
 			};
 		};
+		CE840AA42D7969B70033D4E3 /* XCRemoteSwiftPackageReference "SwiftfulUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -584,6 +596,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CE1A2FE22D7713BB005B64E5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
+		};
+		CE840AA52D7969D80033D4E3 /* SwiftfulUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE840AA42D7969B70033D4E3 /* XCRemoteSwiftPackageReference "SwiftfulUI" */;
+			productName = SwiftfulUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
